@@ -1,0 +1,365 @@
+/* cart section */
+
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+body {
+  background-color: azure;
+  overflow-x: hidden;
+}
+
+nav {
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  z-index: 999;
+  background: #e3e6f3;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+  margin-left: 2%;
+  margin-top: 0.5%;
+}
+
+.navbar {
+  font-weight: 600;
+  font-size: 16px;
+  float: right;
+  width: 45%;
+  height: 40%;
+  margin-right: -1%;
+  color: #1a1a1a;
+  text-align: center;
+  margin-top: 1.5%;
+}
+
+a {
+  margin-right: 5%;
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 20px;
+  /* border-bottom: 5px solid; */
+  position: relative;
+  justify-content: space-around;
+  transition: 0.3s ease;
+}
+
+a:hover .shop:nth-child(1) {
+  font-weight: bold;
+  /*margin-right: 10%;*/
+  /* text-decoration: none; */
+  color: #088178;
+  /* border-width: 5px; */
+  border-bottom: 5px solid;
+  font-size: 18px;
+}
+
+#active {
+  border-bottom: 5px solid;
+  color: #088178;
+}
+
+.hero {
+  display: flex;
+  height: 50vh;
+  background-image: url(../img/about/banner.png);
+  background-size: cover;
+  z-index: 2;
+}
+
+.content {
+  width: 30%;
+  /* border: 1px solid; */
+  height: 40vh;
+  position: relative;
+  top: 40%;
+  left: 35%;
+  text-align: center;
+  z-index: 10;
+}
+
+.button {
+  border: none;
+  background-image: url(./img/about/banner.png);
+  background-repeat: no-repeat;
+  height: 5vh;
+  width: 50%;
+  padding: 1%;
+}
+
+.shop {
+  position: relative;
+  border: none;
+}
+
+h5 {
+  position: relative;
+}
+
+h3 {
+  position: relative;
+  left: 25%;
+  top: 15%;
+  color: #088178;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global Styles */
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  color: #088178;
+}
+
+.code {
+  font-size: 20px;
+  color: #fff;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: #fff;
+  margin: 15px 0 20px 0;
+}
+
+.bag {
+  width: 50%;
+  height: 3vh;
+  position: relative;
+  left: 37%;
+  top: -90%;
+}
+
+.order {
+  padding: 2%;
+}
+
+td,
+th,
+tr {
+  padding: 1%;
+  width: 10%;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+
+.cart1 {
+  width: 30%;
+  height: 10vh;
+}
+
+input {
+  padding: 5%;
+  width: 30%;
+  cursor: pointer;
+}
+
+.head {
+  padding: 1.5%;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+  height: 2vh;
+}
+
+.total {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  /* border: 1px solid; */
+}
+
+.left {
+  /* border: 1px solid; */
+  width: 50%;
+  height: 100%;
+  padding: 5%;
+}
+
+.right {
+  /* border: 1px solid; */
+  padding: 5%;
+  width: 50%;
+  height: 100%;
+}
+
+.coupon {
+  width: 60%;
+  height: 6vh;
+  padding: 1%;
+}
+
+.apply {
+  width: 20%;
+  height: 6.5vh;
+  background: #088178;
+  color: #fff;
+  margin-left: 2%;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  padding: 1%;
+  border: 1px solid;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  margin-top: 2%;
+  /* border: 1px solid; */
+  width: 90%;
+  height: 8vh;
+}
+
+.coup {
+  position: relative;
+  /* margin-top: 5%; */
+}
+
+.text {
+  position: relative;
+  text-align: center;
+  bottom: 25%;
+  position: relative;
+}
+
+.cart-total {
+  font-size: larger;
+  padding: 5%;
+  height: 30vh;
+  width: 90%;
+  margin: auto;
+  border: 1px solid silver;
+}
+
+.cart-subtotal {
+  display: flex;
+  padding: 2%;
+  margin-top: 2%;
+  height: 15vh;
+  border: 1px solid silver;
+}
+
+.left-cart {
+  width: 50%;
+}
+
+.right-cart {
+  width: 50%;
+  text-align: right;
+}
+
+h5 {
+  padding-top: 2%;
+  color: #1a1a1a;
+  font-weight: 100;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  height: 60vh;
+  padding: 2%;
+  position: relative;
+  left: 1%;
+  display: flex;
+  color: #000;
+}
+
+.contact {
+  width: 30%;
+}
+
+.about {
+  /* border: 1px solid; */
+  width: 20%;
+}
+
+.account {
+  /* border: 1px solid; */
+  width: 20%;
+}
+
+.install {
+  /* border: 1px solid; */
+  width: 30%;
+}
+
+ul {
+  padding: 2%;
+}
+
+li {
+  list-style-type: none;
+  font-weight: bold 600;
+  padding: 1%;
+}
+
+.payment {
+  color: #000;
+}
+
+#app-store {
+  border: 1px solid gray;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+#play-store {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.acct {
+  font-weight: 900;
+}
+
+.payment-method {
+  margin-top: 5%;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: -5%;
+  font-size: x-large;
+  color: #088178;
+}
