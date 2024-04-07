@@ -222,8 +222,13 @@ video {
 
 .free1 {
   background-color: #fddde4;
-  padding: 2%;
-  margin: 2%;
+  padding: 1%;
+  width: 100%;
+  height: 4vh;
+  position: relative;
+  top: 5%;
+  text-align: center;
+  font-size: 16px;
 }
 
 .free2 {
