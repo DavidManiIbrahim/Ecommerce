@@ -237,32 +237,47 @@ video {
 
 .free2 {
   background-color: #cdebbc;
+  position: relative;
+  top: 5%;
+  height: 4vh;
+  font-size: 16px;
   padding: 2%;
-  margin: 2%;
 }
 
 .free3 {
   background-color: #d1e8f2;
   padding: 2%;
-  margin: 2%;
+  position: relative;
+  top: 5%;
+  height: 4vh;
+  font-size: 16px;
 }
 
 .free4 {
   background-color: #cdd4f8;
-  margin: 2%;
   padding: 2%;
+  position: relative;
+  top: 5%;
+  height: 4vh;
+  font-size: 16px;
 }
 
 .free5 {
   background-color: #f6dbf6;
   padding: 2%;
-  margin-top: 2%;
+  position: relative;
+  top: 5%;
+  height: 4vh;
+  font-size: 16px;
 }
 
 .free6 {
   background-color: #fff2e5;
   padding: 2%;
-  margin-top: 2%;
+  position: relative;
+  top: 5%;
+  height: 4vh;
+  font-size: 16px;
 }
 
 .offer {
