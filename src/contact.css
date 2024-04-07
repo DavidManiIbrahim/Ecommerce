@@ -80,12 +80,12 @@ a:hover {
 }
 
 .content {
-  width: 30%;
+  width: 40%;
   /* border: 1px solid; */
   height: 40vh;
   position: relative;
   top: 40%;
-  left: 35%;
+  left: 30%;
   text-align: center;
   /* z-index: -1; */
 }
@@ -151,8 +151,10 @@ p {
 }
 
 .right {
-  padding-top: 10%;
-  width: 30%;
+  padding-top: 8%;
+  width: 40%;
+  /* padding-right: 2%; */
+  font-size: small;
   /* border: 1px solid; */
   height: 100%;
 }
@@ -185,7 +187,7 @@ p {
 
 .info {
   color: gray;
-  font-size: large;
+  font-size: medium;
   font-weight: 100;
 }
 
