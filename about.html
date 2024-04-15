@@ -48,7 +48,7 @@
               quia quas rerum quasi delectus sapiente officia qui dignissimos,
               dolor modi necessitatibus accusamus alias? Totam sunt voluptas
               assumenda eveniet!
-            </p>
+            </p> <br>
             <marquee behavior="" direction="rtl">
               Create Stunning Images with as much or as little control as you
               like thanks to a choice of Basic and Creative modes.
@@ -58,7 +58,11 @@
       </div>
       <div class="download">
         <h1 class="download">Download Our <a class="app" href="">App</a></h1>
-        <video src="./img/about/1.mp4" autoplay loop="999"></video>
+        <video id="myVideo" autoplay loop >
+  <source src="./img/about/1.mp4" type="video/mp4">
+</video>
+
+        <!-- <video src="" autoplay controls loop="999"></video> -->
       </div>
       <div class="feature">
         <div class="box1">
@@ -163,6 +167,13 @@
       </footer>
       <div class="copyright">David Mani Ibrahim &copy; 2024</div>
     </div>
-    <script src="script.js"></script>
+<script>
+  const video = document.getElementById("myVideo");
+  video.onended = function() {
+    this.currentTime = 0;
+    this.play();
+  };
+</script>
+
   </body>
 </html>
